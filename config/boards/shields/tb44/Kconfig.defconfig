@@ -1,0 +1,12 @@
+if SHIELD_MT42
+
+config ZMK_POINTING
+  default y
+
+config PAW3222
+  default y
+
+config ZMK_KEYBOARD_NAME
+default "mt42"
+
+endif
